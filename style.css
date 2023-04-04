@@ -1,0 +1,196 @@
+body {
+  background-color: #535353;
+  color: #3b3737;
+  margin: 0px;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: #070606;
+  border-radius: 0 0 20px 20px;
+  padding: 0px;
+  color: #f0f8ff;
+display: flex;
+border-bottom: orangered solid 2px;
+
+}
+h2{
+  font-size: 55px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+
+text-shadow: orangered 0px 0px 0px, orangered 0px 0px 10px,
+    0px 0px 0px
+
+
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 3px;
+  text-shadow: orangered 0px 0px 0px, orangered 0px 0px 10px,
+    0px 0px 0px
+}
+ 
+.task {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(62, 62, 63, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  transition: 0.2s;
+}
+
+.task:hover {
+  scale: 105%;
+}
+
+.icon-star {
+  font-size: 25px;
+  opacity: 0.3;
+}
+.icon-star:hover {
+  font-size: 27px;
+  color: orange;
+  transition: 0.2s;
+  opacity: 1;
+}
+.icon-trash-o {
+  font-size: 25px;
+  opacity: 0.3;
+}
+.icon-trash-o:hover {
+  font-size: 27px;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.icon-checkbox-unchecked {
+  font-size: 23px;
+  opacity: 0.3;
+}
+
+.icon-checkbox-unchecked:hover {
+ 
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+  opacity: 1;
+}
+p {
+  font-size: 20px;
+}
+
+button {
+  all: unset;
+  position: relative;
+  top: 4px;
+}
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 60%;
+  font-size: 24px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  padding: 20px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 8px orangered, 0px 0px 8px orangered;
+  box-shadow: 0 0px 8px orangered, 0px 0px 8px orangered;
+}
+
+.icon-plus {
+  font-size: 50px;
+  opacity:1;
+  color: #FFFFFF;
+  margin-top: 15px;
+  text-shadow: orangered 0px 0px 0px, orangered 0px 0px 10px,
+    0px 0px 0px
+  
+}
+.icon-plus:hover {
+  font-size: 57px;
+  color: #ffffff;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.icon-checkbox-checked {
+  font-size: 25px;
+  opacity: 0.3;
+}
+
+.icon-checkbox-checked:hover {
+ font-size: 23px;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+  opacity: 1;
+}
+/* for javacript */
+.dn {
+  display: none;
+}
+.text-decoration {
+  text-decoration-line: line-through;
+}
+
+.icon-star2 {
+  font-size: 27px;
+  color: orange;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 70%;
+
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+
+  box-shadow: 0 8px 32px 0 rgba(62, 62, 63, 0.37);
+  backdrop-filter: blur(0x);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px orangered, 0px 0px 8px orangered;
+  box-shadow: 0 0px 8px orangered, 0px 0px 8px orangered;
+}
+}
+
+
+body{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+}
+hea
